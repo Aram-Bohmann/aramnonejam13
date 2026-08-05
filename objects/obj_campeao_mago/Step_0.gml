@@ -4,7 +4,7 @@ if (_mouse_sobre) {
 	image_xscale = 1.1;
 	image_yscale = 1.1;
 	if (mouse_click) {
-		
+		room_goto(rm_game)
 	}
 	
 } else {

@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_carta",
+  "%Name":"obj_campeao_arqueiro_game",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_carta",
+  "name":"obj_campeao_arqueiro_game",
   "overriddenProperties":[],
   "parent":{
     "name":"objetos",
@@ -32,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_carta_fundo",
-    "path":"sprites/spr_carta_fundo/spr_carta_fundo.yy",
+    "name":"spr_campeao_arqueiro_game",
+    "path":"sprites/spr_campeao_arqueiro_game/spr_campeao_arqueiro_game.yy",
   },
   "spriteMaskId":null,
   "visible":true,

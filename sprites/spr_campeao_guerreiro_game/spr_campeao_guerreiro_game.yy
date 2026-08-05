@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_campeao_guerreiro",
+  "%Name":"spr_campeao_guerreiro_game",
   "bboxMode":0,
-  "bbox_bottom":456,
+  "bbox_bottom":396,
   "bbox_left":0,
-  "bbox_right":328,
+  "bbox_right":284,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"8c0752c0-cf0f-4693-9c94-bdb59976cab1","name":"8c0752c0-cf0f-4693-9c94-bdb59976cab1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"134f2cb0-afdf-46cb-b736-5da0e81ec1f6","name":"134f2cb0-afdf-46cb-b736-5da0e81ec1f6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":457,
+  "height":397,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"fc9345e1-eeac-40db-b15f-cebb4f45892f","blendMode":0,"displayName":"default","isLocked":false,"name":"fc9345e1-eeac-40db-b15f-cebb4f45892f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"4065feda-9278-46b0-a4f7-5d3d56f0c608","blendMode":0,"displayName":"default","isLocked":false,"name":"4065feda-9278-46b0-a4f7-5d3d56f0c608","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_campeao_guerreiro",
+  "name":"spr_campeao_guerreiro_game",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_campeao_guerreiro",
+    "%Name":"spr_campeao_guerreiro_game",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_campeao_guerreiro",
+    "name":"spr_campeao_guerreiro_game",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,14 +69,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8c0752c0-cf0f-4693-9c94-bdb59976cab1","path":"sprites/spr_campeao_guerreiro/spr_campeao_guerreiro.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d0894ebb-4e79-4505-97fd-aa6b819381a6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"134f2cb0-afdf-46cb-b736-5da0e81ec1f6","path":"sprites/spr_campeao_guerreiro_game/spr_campeao_guerreiro_game.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3cf5b055-c5f0-47c4-8c6d-fdbe3d62a3f9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":164,
-    "yorigin":228,
+    "xorigin":142,
+    "yorigin":198,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":329,
+  "width":285,
 }
