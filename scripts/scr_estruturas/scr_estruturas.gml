@@ -1,7 +1,15 @@
 #region Arte
 
 enum ARTE {
-	BOMBA,
+	subir_escada,
+	corredor,
+	cozinha,
+	camara_secreta,
+	descer_escada,
+	salao,
+	lavabo,
+	despensa,
+	camara_rei,
 	
 	TOTAL
 	
