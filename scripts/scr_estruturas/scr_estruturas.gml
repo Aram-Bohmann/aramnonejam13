@@ -9,6 +9,7 @@ enum ARTE {
 	salao,
 	lavabo,
 	despensa,
+	espinho,
 	camara_rei,
 	
 	TOTAL
@@ -24,8 +25,7 @@ global.baralho = [];
 global.mao = [];
 
 // criando a estrutura da carta
-function cria_carta(_nome = "", _img_arte = 0, _img_fundo = 0) constructor {
-	nome		= _nome;
+function cria_carta(_img_arte = 0, _img_fundo = 0) constructor {
 	img_arte	= _img_arte;
 	img_fundo	= _img_fundo;
 	

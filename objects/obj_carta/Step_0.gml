@@ -32,6 +32,9 @@ if (_mouse_sobre) {
 		if (global.carta_atual = 8){
 			global.momento = "inimigo";		
 	    }
+		if (global.carta_atual = 9){
+			global.momento = "inimigo";		
+	    }
 		with (obj_carta) {
             instance_destroy();
         }
