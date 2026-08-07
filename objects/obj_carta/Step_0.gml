@@ -32,15 +32,16 @@ if (_mouse_sobre) {
 		if (global.carta_atual = 8){
 			global.momento = "inimigo";		
 	    }
-		instance_create_layer(1, 1, "Instances", obj_comece);
-		global.morram = true;
+		with (obj_carta) {
+            instance_destroy();
+        }
+		
+		call_later(.5, time_source_units_seconds, function() {
+		     scr_pega_carta();
+		});
 	}
 	
 } else {
 	image_xscale =1;
 	image_yscale =1;
-}
-
-if (global.morram = true) {
-	instance_destroy()
 }

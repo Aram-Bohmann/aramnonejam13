@@ -8,6 +8,7 @@
   "instanceCreationOrder":[
     {"name":"inst_3D1B138","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_5D88783C","path":"rooms/rm_game/rm_game.yy",},
+    {"name":"inst_23ACC34","path":"rooms/rm_game/rm_game.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -17,6 +18,7 @@
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_3D1B138","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3D1B138","objectId":{"name":"obj_comece","path":"objects/obj_comece/obj_comece.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":13.0,"scaleY":13.0,"x":480.0,"y":-352.0,},
         {"$GMRInstance":"v4","%Name":"inst_5D88783C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5D88783C","objectId":{"name":"obj_config","path":"objects/obj_config/obj_config.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1856.0,"y":64.0,},
+        {"$GMRInstance":"v4","%Name":"inst_23ACC34","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_23ACC34","objectId":{"name":"obj_campeao_arqueiro_game","path":"objects/obj_campeao_arqueiro_game/obj_campeao_arqueiro_game.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1728.0,"y":448.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"arte","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_44644219","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_44644219","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.2547591,"scaleY":1.2547591,"spriteId":{"name":"spr_fundo","path":"sprites/spr_fundo/spr_fundo.yy",},"x":0.0,"y":0.0,},

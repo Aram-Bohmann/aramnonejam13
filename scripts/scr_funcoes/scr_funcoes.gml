@@ -22,7 +22,7 @@ function cria_baralho() {
 		
 		
 		// INSERINDO AS CARTAS AO BARALHO
-		if (global.momento = "caminho" or global.momento = "inimigo") {
+		if (global.momento = "caminho") {
 			array_push(global.baralho, caminho_subir_escada);
 			array_push(global.baralho, caminho_corredor);
 			array_push(global.baralho, caminho_cozinha);
@@ -48,9 +48,17 @@ function cria_baralho() {
 }
 
 function preenche_mao() {
-	// Pegando algumas cartas do baralho
-	for (var i = 0; i < 3; i++) {
-		var _carta_atual = irandom(array_length(global.baralho) -1);
-		array_push(global.mao, global.baralho[_carta_atual]);	
+	var _indices_disponiveis = [];
+	for (var i = 0; i < array_length(global.baralho); i++) {
+		array_push(_indices_disponiveis, i);
+	}
+	var _quantidade = min(3, array_length(_indices_disponiveis));
+
+	for (var i = 0; i < _quantidade; i++) {
+		var _pos = irandom(array_length(_indices_disponiveis) - 1);
+		var _indice_carta = _indices_disponiveis[_pos];
+
+		array_push(global.mao, global.baralho[_indice_carta]);
+		array_delete(_indices_disponiveis, _pos, 1);
 	}
 }

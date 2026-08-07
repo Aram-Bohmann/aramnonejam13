@@ -1,1 +1,1 @@
-scr_pega_carta();
+global.trava = false;
