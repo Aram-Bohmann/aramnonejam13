@@ -37,6 +37,36 @@ function cria_baralho() {
 		var inimigo_rei = new cria_carta(0, 22);
 		
 		
+		var ataque_cuspe = new cria_carta(0, 23);
+		var ataque_carapaca = new cria_carta(0, 24);
+		var ataque_espada_enferrujado = new cria_carta(0, 25);
+		var ataque_escudo_enferrujado = new cria_carta(0, 26);
+		var ataque_arco_enferrujado = new cria_carta(0, 27);
+		var ataque_aljava = new cria_carta(0, 28);
+		var ataque_cuspe_teia = new cria_carta(0, 29);
+		var ataque_mordida_venenosa = new cria_carta(0, 30);	
+		var ataque_garras = new cria_carta(0, 31);	
+		var ataque_uivo = new cria_carta(0, 32);	
+		var ataque_roubar = new cria_carta(0, 33);	
+		var ataque_traicao = new cria_carta(0, 34);	
+		var ataque_bomba_fumaca = new cria_carta(0, 35);	
+		var ataque_porrete = new cria_carta(0, 36);	
+		var ataque_pele_grossa = new cria_carta(0, 37);	
+		var ataque_espirro = new cria_carta(0, 38);	
+		var ataque_panquecas = new cria_carta(0, 39);	
+		var ataque_panelada = new cria_carta(0, 40);	
+		var ataque_pimenta = new cria_carta(0, 41);	
+		var ataque_saciar = new cria_carta(0, 42);	
+		var ataque_alimentar = new cria_carta(0, 43);	
+		var ataque_transformar = new cria_carta(0, 44);	
+		var ataque_susto = new cria_carta(0, 45);
+		var ataque_bafo = new cria_carta(0, 46);	
+		var ataque_enfurecido = new cria_carta(0, 47);	
+		var ataque_alucinar = new cria_carta(0, 48);	
+		var ataque_poros = new cria_carta(0, 49);	
+		var ataque_espada_sagrada = new cria_carta(0, 50);	
+		var ataque_lamento_rei = new cria_carta(0, 51);			
+		
 		// INSERINDO AS CARTAS AO BARALHO
 		if (global.momento = "caminho") {
 			array_push(global.baralho, caminho_subir_escada);
@@ -58,14 +88,14 @@ function cria_baralho() {
 				array_push(global.baralho, inimigo_esqueleto_guerreiro);
 				array_push(global.baralho, inimigo_esqueleto_arqueiro);
 			} else if (global.inimigo_dificuldade = 1) {
-				array_push(global.baralho, inimigo_larva);
+				array_push(global.baralho, inimigo_aranha);
 				array_push(global.baralho, inimigo_esqueleto_guerreiro);
 				array_push(global.baralho, inimigo_esqueleto_arqueiro);
 			} else if (global.inimigo_dificuldade = 2) {
 				array_push(global.baralho, inimigo_aranha);
 				array_push(global.baralho, inimigo_mimico_fraco);
 				array_push(global.baralho, inimigo_esqueleto_guerreiro);
-				array_push(global.baralho, inimigo_esqueleto_arqueiro);
+				array_push(global.baralho, inimigo_lobisomem);
 			} else if (global.inimigo_dificuldade = 3) {
 				array_push(global.baralho, inimigo_aranha);
 				array_push(global.baralho, inimigo_globin);
@@ -74,14 +104,14 @@ function cria_baralho() {
 			} else if (global.inimigo_dificuldade = 4) {
 				array_push(global.baralho, inimigo_globin);
 				array_push(global.baralho, inimigo_lobisomem);
-				array_push(global.baralho, inimigo_mimico_fraco);
+				array_push(global.baralho, inimigo_ciclope);
 			} else if (global.inimigo_dificuldade = 5) {
 				array_push(global.baralho, inimigo_ciclope);
 				array_push(global.baralho, inimigo_globin);
-				array_push(global.baralho, inimigo_lobisomem);
+				array_push(global.baralho, inimigo_fantasma_cozinheiro);
 				array_push(global.baralho, inimigo_mimico_forte);
 			} else if (global.inimigo_dificuldade = 6) {
-				array_push(global.baralho, inimigo_ciclope);
+				array_push(global.baralho, inimigo_vampiro);
 				array_push(global.baralho, inimigo_fantasma_cozinheiro);
 				array_push(global.baralho, inimigo_lobisomem);
 				array_push(global.baralho, inimigo_mimico_forte);
@@ -91,12 +121,72 @@ function cria_baralho() {
 				array_push(global.baralho, inimigo_vampiro);
 				array_push(global.baralho, inimigo_mimico_forte);
 			} else if (global.inimigo_dificuldade = 8) {
-				array_push(global.baralho, inimigo_larva);
-				array_push(global.baralho, inimigo_esqueleto_guerreiro);
-				array_push(global.baralho, inimigo_esqueleto_arqueiro);
+				array_push(global.baralho, inimigo_cogumelo_gigante);
+				array_push(global.baralho, inimigo_fantasma_cozinheiro);
+				array_push(global.baralho, inimigo_vampiro);
 				array_push(global.baralho, inimigo_mimico_forte);
 			} else if (global.inimigo_dificuldade = 9) {
 				array_push(global.baralho, inimigo_rei);
+			}
+		}
+		if (global.momento = "ataque_inimigo") {
+			if (global.inimigo_agora = "inimigo_larva") {
+				array_push(global.baralho, ataque_cuspe);
+				array_push(global.baralho, ataque_carapaca);
+			}
+			if (global.inimigo_agora = "inimigo_esqueleto_guerreiro") {
+				array_push(global.baralho, ataque_espada_enferrujado);
+				array_push(global.baralho, ataque_escudo_enferrujado);
+			}
+			if (global.inimigo_agora = "inimigo_esqueleto_arqueiro") {
+				array_push(global.baralho, ataque_arco_enferrujado);
+				array_push(global.baralho, ataque_aljava);
+			}
+			if (global.inimigo_agora = "inimigo_aranha") {
+				array_push(global.baralho, ataque_cuspe_teia);
+				array_push(global.baralho, ataque_mordida_venenosa);
+			}
+			if (global.inimigo_agora = "inimigo_lobisomem") {
+				array_push(global.baralho, ataque_garras);
+				array_push(global.baralho, ataque_uivo);
+			}
+			if (global.inimigo_agora = "inimigo_globin") {
+				array_push(global.baralho, ataque_roubar);
+				array_push(global.baralho, ataque_traicao);
+				array_push(global.baralho, ataque_bomba_fumaca);
+			}
+			if (global.inimigo_agora = "inimigo_ciclope") {
+				array_push(global.baralho, ataque_porrete);
+				array_push(global.baralho, ataque_pele_grossa);
+				array_push(global.baralho, ataque_espirro);
+			}
+			if (global.inimigo_agora = "inimigo_fantasma_cozinheiro") {
+				array_push(global.baralho, ataque_panquecas);
+				array_push(global.baralho, ataque_panelada);
+				array_push(global.baralho, ataque_pimenta);
+			}
+			if (global.inimigo_agora = "inimigo_vampiro") {
+				array_push(global.baralho, ataque_saciar);
+				array_push(global.baralho, ataque_alimentar);
+				array_push(global.baralho, ataque_transformar);
+			}
+			if (global.inimigo_agora = "inimigo_mimico_fraco") {
+				array_push(global.baralho, ataque_susto);
+				array_push(global.baralho, ataque_bafo);
+				array_push(global.baralho, ataque_enfurecido);
+			}
+			if (global.inimigo_agora = "inimigo_mimico_forte") {
+				array_push(global.baralho, ataque_susto);
+				array_push(global.baralho, ataque_bafo);
+				array_push(global.baralho, ataque_enfurecido);
+			}
+			if (global.inimigo_agora = "inimigo_cogumelo_gigante") {
+				array_push(global.baralho, ataque_alucinar);
+				array_push(global.baralho, ataque_poros);
+			}
+			if (global.inimigo_agora = "inimigo_rei") {
+				array_push(global.baralho, ataque_espada_sagrada);
+				array_push(global.baralho, ataque_lamento_rei);
 			}
 		}
 		if (global.momento = "recompensa") {

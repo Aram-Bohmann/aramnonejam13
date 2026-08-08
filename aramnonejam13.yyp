@@ -53,7 +53,6 @@
     {"id":{"name":"scr_funcoes","path":"scripts/scr_funcoes/scr_funcoes.yy",},},
     {"id":{"name":"scr_globais","path":"scripts/scr_globais/scr_globais.yy",},},
     {"id":{"name":"scr_pega_carta","path":"scripts/scr_pega_carta/scr_pega_carta.yy",},},
-    {"id":{"name":"Group_296","path":"sprites/Group_296/Group_296.yy",},},
     {"id":{"name":"spr_campeao_arqueiro_game","path":"sprites/spr_campeao_arqueiro_game/spr_campeao_arqueiro_game.yy",},},
     {"id":{"name":"spr_campeao_arqueiro","path":"sprites/spr_campeao_arqueiro/spr_campeao_arqueiro.yy",},},
     {"id":{"name":"spr_campeao_guerreiro_game","path":"sprites/spr_campeao_guerreiro_game/spr_campeao_guerreiro_game.yy",},},

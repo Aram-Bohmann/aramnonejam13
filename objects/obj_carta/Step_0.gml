@@ -35,13 +35,65 @@ if (_mouse_sobre) {
 		if (global.carta_atual = 9){
 			global.momento = "inimigo";		
 	    }
+		
+		
+		if (global.carta_atual = 10){
+			global.momento = "ataque_inimigo";	
+			global.inimigo_agora = "inimigo_larva";		
+	    }
+		if (global.carta_atual = 11){
+			global.momento = "ataque_inimigo";	
+			global.inimigo_agora = "inimigo_esqueleto_guerreiro";		
+	    }
+		if (global.carta_atual = 12){
+			global.momento = "ataque_inimigo";	
+			global.inimigo_agora = "inimigo_esqueleto_arqueiro";		
+	    }
+		if (global.carta_atual = 13){
+			global.momento = "ataque_inimigo";	
+			global.inimigo_agora = "inimigo_aranha";		
+	    }
+		if (global.carta_atual = 14){
+			global.momento = "ataque_inimigo";	
+			global.inimigo_agora = "inimigo_lobisomem";		
+	    }
+		if (global.carta_atual = 15){
+			global.momento = "ataque_inimigo";	
+			global.inimigo_agora = "inimigo_globin";		
+	    }
+		if (global.carta_atual = 16){
+			global.momento = "ataque_inimigo";	
+			global.inimigo_agora = "inimigo_ciclope";		
+	    }
+		if (global.carta_atual = 17){
+			global.momento = "ataque_inimigo";	
+			global.inimigo_agora = "inimigo_fantasma_cozinheiro";		
+	    }
+		if (global.carta_atual = 18){
+			global.momento = "ataque_inimigo";	
+			global.inimigo_agora = "inimigo_vampiro";		
+	    }
+		if (global.carta_atual = 19){
+			global.momento = "ataque_inimigo";	
+			global.inimigo_agora = "inimigo_mimico_fraco";		
+	    }
+		if (global.carta_atual = 20){
+			global.momento = "ataque_inimigo";	
+			global.inimigo_agora = "inimigo_mimico_forte";		
+	    }
+		if (global.carta_atual = 21){
+			global.momento = "ataque_inimigo";	
+			global.inimigo_agora = "inimigo_cogumelo_gigante";		
+	    }
+		if (global.carta_atual = 22){
+			global.momento = "ataque_inimigo";	
+			global.inimigo_agora = "inimigo_rei";		
+	    }
 		with (obj_carta) {
             instance_destroy();
         }
 		
-		call_later(.5, time_source_units_seconds, function() {
-		     scr_pega_carta();
-		});
+		call_later(.5, time_source_units_seconds, function() {scr_pega_carta();});
 	}
 	
 } else {
